@@ -17,8 +17,8 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "6897996535:AAGZYhvIjrhmW6xJKhwQkAo2r87VZBEyXjE")
-    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "dil_up") # Bot username without @.
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "6880188560:AAHpk9t0uWT1CURv7NqJIJCZ3XsPyywGc8E")
+    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "Dilcom_bot") # Bot username without @.
     
     # The Telegram API things
     TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "14631157"))
@@ -51,7 +51,7 @@ class Config(object):
     TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://dilfilter123:dilfilter123@cluster0.tq9uv2k.mongodb.net/?retryWrites=true&w=majority")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://Dilshan:Dilcluster@dilcluster.dai05pm.mongodb.net/?retryWrites=true&w=majority&appName=Dilcluster")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
